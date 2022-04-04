@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="33.355">
+    <testcase classname="Login Credentials Stored in Local Browser" name="Check whether login credentials stored on browsers local storage" time="9.761">
+        <system-out><![CDATA[Given User is on Facebook Home Page.........................................passed
+When User stores login information in local browser.........................passed
+Then User able to see stored information in local browser...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login Page Functions" name="Check whether user could able to navigate to Log-In Screen page" time="7.594">
+        <system-out><![CDATA[Given User is on Facebook Log-In Screen of the application..................passed
+When User enters valid Login Name  and Password and clicks on login button..passed
+Then User navigate to Facebook Home Page....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Logout Page Functions" name="Check whether user could able to Logout" time="11.312">
+        <system-out><![CDATA[Given User is on Dashboard Screen of the application........................passed
+When User navigate to the dropdown icon upper left corner by clicks on it...passed
+And User clicks  Logout icon................................................passed
+Then User able to logout successfully.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Taligate Secured Page" name="Check whether after logout user could able to access friends page" time="4.307">
+        <system-out><![CDATA[Given User is on Facebook Sign in Screen....................................passed
+When User navigate to the facebook friends page without sigin in............passed
+Then User gets error message................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

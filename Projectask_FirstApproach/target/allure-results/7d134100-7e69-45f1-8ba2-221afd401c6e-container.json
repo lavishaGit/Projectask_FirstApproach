@@ -1,0 +1,1 @@
+{"uuid":"7d134100-7e69-45f1-8ba2-221afd401c6e","name":"Scenario: Check whether login credentials stored on browsers local storage","children":["416d0a63-5b79-4c92-b2c5-ecf9689f3fcc"],"befores":[],"afters":[],"start":1649049648896,"stop":1649049658420}
